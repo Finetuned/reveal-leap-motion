@@ -42,14 +42,14 @@ function gesturing({ fingers, gestures, hands }) {
 
         lastGesture = now;
       }
-    } else if (hands.length === 2) { // Two hand gestures
+    } /* else if (hands.length === 2) { // Two hand gestures
       // Upward two hand swipe gesture
       if (gesture.type === 'swipe' && gesture.direction[1] > 0) {
         Reveal.toggleOverview();
       }
 
       lastGesture = now;
-    }
+    } */
   }
 }
 
